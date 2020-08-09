@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2020-08-09T02:47:33.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="4s91pZ3EGbjsMF-oAHsF" version="13.6.1" type="github">
-  <diagram id="ncnsrwpVO72hItX7OUJh" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-08-09T03:33:13.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="V-853q8g64qv-zAY2VEq" version="13.6.1" type="github">
+  <diagram id="ncnsrwpVO72hItX7OUJh" name="String字符串创建">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -263,8 +263,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b4XtInaoXHlMPT_Rdzl1-69" value="总结：&lt;br style=&quot;font-size: 16px;&quot;&gt;1、字面创建字符对象直接在常量池中创建&lt;br style=&quot;font-size: 16px;&quot;&gt;2、字面拼接的方式创建字符只创建最终结果的字符对象&lt;br style=&quot;font-size: 16px;&quot;&gt;3、常量池中已经有的字符直接引用，不用创建&lt;br style=&quot;font-size: 16px;&quot;&gt;4、new方式创建的字符会创建字符对象并引用，并在常量池也会创建相同的字符常量，若存在则不创建&lt;br style=&quot;font-size: 16px;&quot;&gt;5、new方式拼接方式创建的字符会创建最终结果的字符对象，并在常量池中分别创建字符对象，若存在则不创建&lt;br style=&quot;font-size: 16px;&quot;&gt;6、字面创建方式比new方式创建的对象少，因此多数用字面方式创建字符" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-275" y="650" width="810" height="140" as="geometry" />
+        <mxCell id="b4XtInaoXHlMPT_Rdzl1-69" value="总结：&lt;br style=&quot;font-size: 16px&quot;&gt;1、字面创建字符对象直接在常量池中创建&lt;br style=&quot;font-size: 16px&quot;&gt;2、字面拼接的方式创建字符只创建最终结果的字符对象&lt;br style=&quot;font-size: 16px&quot;&gt;3、常量池中已经有的字符直接引用，不用创建&lt;br style=&quot;font-size: 16px&quot;&gt;4、new方式创建的字符会创建字符对象并引用，并在常量池也会创建相同的字符常量，若存在则不创建&lt;br style=&quot;font-size: 16px&quot;&gt;5、new方式拼接方式创建的字符串会通过&lt;font color=&quot;#ff6666&quot;&gt;StringBuilder&lt;/font&gt;创建最终结果的字符对象，并在常量池中分别创建字符对象，若存在则不创建&lt;br style=&quot;font-size: 16px&quot;&gt;6、字面创建方式比new方式创建的对象少省空间，因此多数用字面方式创建字符" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-275" y="650" width="950" height="140" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-70" value="str3" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;fontColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="110" y="340" width="120" height="20" as="geometry" />
