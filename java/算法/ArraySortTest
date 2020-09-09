@@ -1,0 +1,74 @@
+package com.jy.array;
+
+import java.util.Arrays;
+
+/**
+ * 数组排序算法
+ * 快速排序、冒泡排序
+ */
+public class ArraySortTest {
+
+    public static void main(String[] args) {
+        quickSort();
+        bubbleSort();
+    }
+
+
+    /**
+     * 快速排序（重点）
+     * 思想其中一个数n，取两个指针(start, end)，一个前一个后，前一个不断加1，后一个不断减1
+     * 如果start或end指向的数字比n小就start++,end--,
+     * 如果start或end
+     */
+    public static void quickSort() {
+        int[] arr = new int[] {32, 4, 18, 11, 14, 59, 34, 145, 25, 34, 76, -4, -2, -32, 11};
+        //排序
+        subQuickSort(arr, 0, arr.length - 1);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    private static void subQuickSort(int[] data, int start, int end) {
+        // 开始指针必须大于结束指针
+        if (start < end) {
+            int i = start, j = end;
+            //取第一个值作为标准值
+            int temp = data[start];
+            while (i < j) {
+                while (i < j && data[j] > temp) // 从右往左找第一个小于temp的数
+                    j--;
+                if(i < j)
+                    data[i++] = data[j]; //交换位置然后i加1
+                while (i < j && data[i] < temp) // 从左往右找第一个大于temp的数
+                    i++;
+                if(i < j)
+                    data[j--] = data[i];
+            }
+            data[i] = temp;
+            subQuickSort(data, start, i - 1);
+            subQuickSort(data, i + 1, end);
+        }
+    }
+
+    /**
+     * 冒泡排序（重点）
+     * 衡量排序算法的优劣：
+     * 1、时间复杂度：比较次数和记录的移动次数
+     * 2、空间复杂度：需要多少内存辅助
+     * 3、稳定性：若两个记录A和B的关键字值相等，但排序后A和B的先后次序保持不变，则称这个算法是稳定的
+     */
+    public static void bubbleSort() {
+        String[] arr = new String[] {"JJ", "GG", "BB", "EE", "AA", "RR", "MM", "DD"};
+        //排序
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - i - 1; j++) {
+                if(arr[j].compareToIgnoreCase(arr[j+1]) > 0) {
+                    String temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+}
