@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T06:21:32.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="pzl7048Qf4CF3kn-N8GU" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-26T01:15:39.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="OL-VFO3U_mzsYwivATAp" version="13.6.10" type="github">
   <diagram id="ncnsrwpVO72hItX7OUJh" name="String字符串创建">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry x="-305" y="70" width="180" height="470" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-2" value="&lt;font color=&quot;#3333ff&quot;&gt;堆&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-61" y="70" width="460" height="370" as="geometry" />
+          <mxGeometry x="-61" y="70" width="460" height="420" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-3" value="&lt;font color=&quot;#000000&quot;&gt;1、String str1 = &quot;abc&quot;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="-665" y="140" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-4" value="方法区" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-61" y="450" width="460" height="90" as="geometry" />
+          <mxGeometry x="-61" y="495" width="460" height="90" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-5" value="&lt;font color=&quot;#00cc00&quot;&gt;运行期常量池&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=16;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-31" y="110" width="400" height="160" as="geometry" />
@@ -281,6 +281,37 @@
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-73" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="b4XtInaoXHlMPT_Rdzl1-72" vertex="1" connectable="0">
           <mxGeometry x="-0.1412" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHfs5U91KYRd71H7iR9t-1" value="&lt;font color=&quot;#000000&quot;&gt;7、String str7 = str1 + &quot;123&quot;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-665" y="450" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pHfs5U91KYRd71H7iR9t-2" value="str7" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="450" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pHfs5U91KYRd71H7iR9t-4" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1" source="pHfs5U91KYRd71H7iR9t-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-430" y="459.5" as="sourcePoint" />
+            <mxPoint x="-285" y="459.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHfs5U91KYRd71H7iR9t-5" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="pHfs5U91KYRd71H7iR9t-4">
+          <mxGeometry x="-0.1412" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHfs5U91KYRd71H7iR9t-6" value="&quot;abc123&quot; 对象" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=13;fontColor=#000000;align=center;size=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pHfs5U91KYRd71H7iR9t-7" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#FF3333;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="pHfs5U91KYRd71H7iR9t-2" target="pHfs5U91KYRd71H7iR9t-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="460" as="sourcePoint" />
+            <mxPoint x="185" y="458.713734939759" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHfs5U91KYRd71H7iR9t-8" value="创建对象并引用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" vertex="1" connectable="0" parent="pHfs5U91KYRd71H7iR9t-7">
+          <mxGeometry x="-0.2001" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
