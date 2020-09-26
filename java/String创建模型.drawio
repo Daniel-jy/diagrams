@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-09-26T01:19:15.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="dQzZMcH93Ez2iEHWIxDO" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-26T01:38:12.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="rhVQB3-jrkxc9IneKGQS" version="13.6.10" type="github">
   <diagram id="ncnsrwpVO72hItX7OUJh" name="String字符串创建">
     <mxGraphModel dx="2274" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-1" value="栈" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=16;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-305" y="70" width="180" height="470" as="geometry" />
+          <mxGeometry x="-305" y="70" width="180" height="430" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-2" value="&lt;font color=&quot;#3333ff&quot;&gt;堆&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-61" y="70" width="460" height="420" as="geometry" />
+          <mxGeometry x="-61" y="70" width="671" height="260" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-3" value="&lt;font color=&quot;#000000&quot;&gt;1、String str1 = &quot;abc&quot;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="-665" y="140" width="150" height="20" as="geometry" />
+          <mxGeometry x="-652" y="317" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-4" value="方法区" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=16;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-61" y="495" width="460" height="90" as="geometry" />
+          <mxGeometry x="-61" y="337" width="671" height="163" as="geometry" />
         </mxCell>
-        <mxCell id="b4XtInaoXHlMPT_Rdzl1-5" value="&lt;font color=&quot;#00cc00&quot;&gt;运行期常量池&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=16;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-31" y="110" width="400" height="160" as="geometry" />
+        <mxCell id="b4XtInaoXHlMPT_Rdzl1-5" value="&lt;font color=&quot;#00cc00&quot;&gt;字符串常量池（JDK1.8）&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=16;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-41" y="372" width="631" height="113" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-6" value="" style="endArrow=classic;html=1;fontSize=16;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-3" target="b4XtInaoXHlMPT_Rdzl1-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="15" y="50" as="sourcePoint" />
-            <mxPoint x="65" as="targetPoint" />
+            <mxPoint x="28" y="227" as="sourcePoint" />
+            <mxPoint x="78" y="177" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-11" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="b4XtInaoXHlMPT_Rdzl1-6" vertex="1" connectable="0">
@@ -31,24 +31,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-9" value="str1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-285" y="140" width="120" height="20" as="geometry" />
+          <mxGeometry x="-272" y="317" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-12" value="&lt;font&gt;2、String str2 = &quot;abc&quot; + &quot;123&quot;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#FF8000;" parent="1" vertex="1">
-          <mxGeometry x="-665" y="180" width="200" height="20" as="geometry" />
+          <mxGeometry x="-652" y="357" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-14" value="str2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;fontColor=#FF8000;" parent="1" vertex="1">
-          <mxGeometry x="-285" y="180" width="120" height="20" as="geometry" />
+          <mxGeometry x="-272" y="357" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-17" value="abc" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;fontColor=#000000;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-1" y="140" width="120" height="20" as="geometry" />
+          <mxGeometry x="-30" y="387" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-18" value="abc123" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;align=center;fontColor=#FF8000;" parent="1" vertex="1">
-          <mxGeometry x="-1" y="180" width="120" height="20" as="geometry" />
+          <mxGeometry x="-30" y="437" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-19" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF8000;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-12" target="b4XtInaoXHlMPT_Rdzl1-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-475" y="230" as="sourcePoint" />
-            <mxPoint x="-305" y="230" as="targetPoint" />
+            <mxPoint x="-462" y="407" as="sourcePoint" />
+            <mxPoint x="-292" y="407" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-20" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#FF8000;" parent="b4XtInaoXHlMPT_Rdzl1-19" vertex="1" connectable="0">
@@ -57,21 +57,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-23" value="&lt;font color=&quot;#000000&quot;&gt;4、String str4 = new String(&quot;qwe&quot;)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="-665" y="298" width="230" height="20" as="geometry" />
+          <mxGeometry x="-654" y="120" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-24" value="str3" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-285" y="220" width="120" height="20" as="geometry" />
+          <mxGeometry x="-272" y="397" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-25" value="qwe" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;fontColor=#000000;align=center;" parent="1" vertex="1">
-          <mxGeometry x="85" y="220" width="120" height="30" as="geometry" />
+          <mxGeometry x="440" y="407" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-27" value="&lt;font color=&quot;#000000&quot;&gt;3、String str3 = &quot;abc123&quot;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="-665" y="220" width="170" height="20" as="geometry" />
+          <mxGeometry x="-652" y="397" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-28" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-460" y="229.5" as="sourcePoint" />
-            <mxPoint x="-285" y="229.5" as="targetPoint" />
+            <mxPoint x="-447" y="406.5" as="sourcePoint" />
+            <mxPoint x="-272" y="406.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-29" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="b4XtInaoXHlMPT_Rdzl1-28" vertex="1" connectable="0">
@@ -81,8 +81,8 @@
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-30" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#3399FF;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-24" target="b4XtInaoXHlMPT_Rdzl1-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-155" y="199.5" as="sourcePoint" />
-            <mxPoint x="-25" y="200" as="targetPoint" />
+            <mxPoint x="-144" y="21.5" as="sourcePoint" />
+            <mxPoint x="-14" y="22" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-31" value="已存在直接引用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#3399FF;" parent="b4XtInaoXHlMPT_Rdzl1-30" vertex="1" connectable="0">
@@ -90,10 +90,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b4XtInaoXHlMPT_Rdzl1-33" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#FF3333;" parent="1" target="b4XtInaoXHlMPT_Rdzl1-17" edge="1">
+        <mxCell id="b4XtInaoXHlMPT_Rdzl1-33" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="b4XtInaoXHlMPT_Rdzl1-17" edge="1" source="b4XtInaoXHlMPT_Rdzl1-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-165" y="149.5" as="sourcePoint" />
-            <mxPoint x="-35" y="150" as="targetPoint" />
+            <mxPoint x="-154" y="-28.5" as="sourcePoint" />
+            <mxPoint x="-24" y="-28" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-34" value="创建并引用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;" parent="b4XtInaoXHlMPT_Rdzl1-33" vertex="1" connectable="0">
@@ -101,10 +101,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b4XtInaoXHlMPT_Rdzl1-35" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#FF8000;" parent="1" target="b4XtInaoXHlMPT_Rdzl1-18" edge="1">
+        <mxCell id="b4XtInaoXHlMPT_Rdzl1-35" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#FF8000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="b4XtInaoXHlMPT_Rdzl1-18" edge="1" source="b4XtInaoXHlMPT_Rdzl1-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-165" y="189.5" as="sourcePoint" />
-            <mxPoint x="-35" y="190" as="targetPoint" />
+            <mxPoint x="-154" y="11.5" as="sourcePoint" />
+            <mxPoint x="-24" y="12" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-36" value="创建并引用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF8000;" parent="b4XtInaoXHlMPT_Rdzl1-35" vertex="1" connectable="0">
@@ -113,12 +113,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-37" value="str4" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-285" y="298" width="120" height="20" as="geometry" />
+          <mxGeometry x="-274" y="120" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-38" value="" style="endArrow=classic;html=1;fontSize=16;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-430" y="308.36363636363626" as="sourcePoint" />
-            <mxPoint x="-285" y="308" as="targetPoint" />
+            <mxPoint x="-419" y="130.36363636363626" as="sourcePoint" />
+            <mxPoint x="-274" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-39" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="b4XtInaoXHlMPT_Rdzl1-38" vertex="1" connectable="0">
@@ -127,12 +127,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-40" value="&quot;qwe&quot; 对象" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=13;fontColor=#000000;align=center;size=10;" parent="1" vertex="1">
-          <mxGeometry x="-31" y="288" width="120" height="40" as="geometry" />
+          <mxGeometry x="460" y="110" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-41" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#FF3333;" parent="1" target="b4XtInaoXHlMPT_Rdzl1-40" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-165" y="311" as="sourcePoint" />
-            <mxPoint x="-55" y="270" as="targetPoint" />
+            <mxPoint x="-154" y="133" as="sourcePoint" />
+            <mxPoint x="-44" y="92" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-42" value="创建对象并引用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" parent="b4XtInaoXHlMPT_Rdzl1-41" vertex="1" connectable="0">
@@ -140,10 +140,10 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b4XtInaoXHlMPT_Rdzl1-43" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-40" target="b4XtInaoXHlMPT_Rdzl1-25" edge="1">
+        <mxCell id="b4XtInaoXHlMPT_Rdzl1-43" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0.783;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-40" target="b4XtInaoXHlMPT_Rdzl1-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-54" y="270" as="sourcePoint" />
-            <mxPoint x="91" y="270" as="targetPoint" />
+            <mxPoint x="-43" y="92" as="sourcePoint" />
+            <mxPoint x="102" y="92" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-44" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="b4XtInaoXHlMPT_Rdzl1-43" vertex="1" connectable="0">
@@ -152,15 +152,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-45" value="&lt;font color=&quot;#000000&quot;&gt;5、String str5 = new String(&quot;qwe&quot;)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="-665" y="350" width="230" height="20" as="geometry" />
+          <mxGeometry x="-654" y="172" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-46" value="str5" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-285" y="350" width="120" height="20" as="geometry" />
+          <mxGeometry x="-274" y="172" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-47" value="" style="endArrow=classic;html=1;fontSize=16;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-45" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-430" y="360.36363636363626" as="sourcePoint" />
-            <mxPoint x="-285" y="360" as="targetPoint" />
+            <mxPoint x="-419" y="182.36363636363626" as="sourcePoint" />
+            <mxPoint x="-274" y="182" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-48" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="b4XtInaoXHlMPT_Rdzl1-47" vertex="1" connectable="0">
@@ -169,12 +169,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-49" value="&quot;qwe&quot; 对象" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=13;fontColor=#000000;align=center;size=10;" parent="1" vertex="1">
-          <mxGeometry x="5" y="340" width="120" height="40" as="geometry" />
+          <mxGeometry x="300" y="162" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-50" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#FF3333;" parent="1" target="b4XtInaoXHlMPT_Rdzl1-49" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-165" y="363" as="sourcePoint" />
-            <mxPoint x="-55" y="322" as="targetPoint" />
+            <mxPoint x="-154" y="185" as="sourcePoint" />
+            <mxPoint x="-44" y="144" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-51" value="创建对象并引用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" parent="b4XtInaoXHlMPT_Rdzl1-50" vertex="1" connectable="0">
@@ -184,8 +184,8 @@
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-52" value="" style="endArrow=classic;html=1;fontSize=16;exitX=0;exitY=0;exitDx=120;exitDy=25;exitPerimeter=0;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-49" target="b4XtInaoXHlMPT_Rdzl1-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="77.52941176470586" y="298" as="sourcePoint" />
-            <mxPoint x="170" y="250" as="targetPoint" />
+            <mxPoint x="88.52941176470586" y="120" as="sourcePoint" />
+            <mxPoint x="181" y="72" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-53" value="已存在不用创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="b4XtInaoXHlMPT_Rdzl1-52" vertex="1" connectable="0">
@@ -194,15 +194,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-54" value="&lt;font color=&quot;#000000&quot;&gt;6、String str6 = new String(&quot;qwe&quot;) &lt;br&gt;+&amp;nbsp;new String(&quot;1&quot;) + new String(&quot;23&quot;)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="-670" y="390" width="240" height="40" as="geometry" />
+          <mxGeometry x="-659" y="212" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-55" value="str6" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-285" y="400" width="120" height="20" as="geometry" />
+          <mxGeometry x="-274" y="222" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-56" value="" style="endArrow=classic;html=1;fontSize=16;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-54" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-430" y="410.36363636363626" as="sourcePoint" />
-            <mxPoint x="-285" y="410" as="targetPoint" />
+            <mxPoint x="-419" y="232.36363636363626" as="sourcePoint" />
+            <mxPoint x="-274" y="232" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-57" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="b4XtInaoXHlMPT_Rdzl1-56" vertex="1" connectable="0">
@@ -211,12 +211,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-58" value="&quot;qwe123&quot; 对象" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=13;fontColor=#000000;align=center;size=10;" parent="1" vertex="1">
-          <mxGeometry x="190" y="390" width="120" height="40" as="geometry" />
+          <mxGeometry x="201" y="212" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-59" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#FF3333;" parent="1" target="b4XtInaoXHlMPT_Rdzl1-58" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-165" y="413" as="sourcePoint" />
-            <mxPoint x="-55" y="372" as="targetPoint" />
+            <mxPoint x="-154" y="235" as="sourcePoint" />
+            <mxPoint x="-44" y="194" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-60" value="创建对象并引用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" parent="b4XtInaoXHlMPT_Rdzl1-59" vertex="1" connectable="0">
@@ -224,27 +224,16 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b4XtInaoXHlMPT_Rdzl1-61" value="" style="endArrow=classic;html=1;fontSize=16;exitX=0;exitY=0;exitDx=120;exitDy=25;exitPerimeter=0;entryX=0.625;entryY=1;entryDx=0;entryDy=0;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-58" target="b4XtInaoXHlMPT_Rdzl1-25" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="99" y="375" as="sourcePoint" />
-            <mxPoint x="150.85185185185173" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="b4XtInaoXHlMPT_Rdzl1-62" value="已存在不用创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="b4XtInaoXHlMPT_Rdzl1-61" vertex="1" connectable="0">
-          <mxGeometry x="-0.1412" y="-2" relative="1" as="geometry">
-            <mxPoint x="11.93" y="-14.19" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-63" value="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;fontColor=#000000;align=center;" parent="1" vertex="1">
-          <mxGeometry x="215" y="220" width="70" height="30" as="geometry" />
+          <mxGeometry x="180" y="409.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-64" value="23" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;fontColor=#000000;align=center;" parent="1" vertex="1">
-          <mxGeometry x="299" y="220" width="70" height="30" as="geometry" />
+          <mxGeometry x="280" y="413.5" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="b4XtInaoXHlMPT_Rdzl1-65" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=120;exitDy=25;exitPerimeter=0;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-58" target="b4XtInaoXHlMPT_Rdzl1-63" edge="1">
+        <mxCell id="b4XtInaoXHlMPT_Rdzl1-65" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=120;exitDy=25;exitPerimeter=0;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-58" target="b4XtInaoXHlMPT_Rdzl1-63" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="79" y="298" as="sourcePoint" />
-            <mxPoint x="155" y="260" as="targetPoint" />
+            <mxPoint x="90" y="120" as="sourcePoint" />
+            <mxPoint x="166" y="82" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-66" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="b4XtInaoXHlMPT_Rdzl1-65" vertex="1" connectable="0">
@@ -252,10 +241,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b4XtInaoXHlMPT_Rdzl1-67" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=120;exitDy=25;exitPerimeter=0;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-58" target="b4XtInaoXHlMPT_Rdzl1-64" edge="1">
+        <mxCell id="b4XtInaoXHlMPT_Rdzl1-67" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0.375;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=120;exitDy=25;exitPerimeter=0;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-58" target="b4XtInaoXHlMPT_Rdzl1-64" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="99" y="425" as="sourcePoint" />
-            <mxPoint x="260" y="260" as="targetPoint" />
+            <mxPoint x="110" y="247" as="sourcePoint" />
+            <mxPoint x="271" y="82" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-68" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="b4XtInaoXHlMPT_Rdzl1-67" vertex="1" connectable="0">
@@ -263,19 +252,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b4XtInaoXHlMPT_Rdzl1-69" value="总结：&lt;br style=&quot;font-size: 16px&quot;&gt;1、字面创建字符对象直接在常量池中创建&lt;br style=&quot;font-size: 16px&quot;&gt;2、字面拼接的方式创建字符只创建最终结果的字符对象&lt;br style=&quot;font-size: 16px&quot;&gt;3、常量池中已经有的字符直接引用，不用创建&lt;br style=&quot;font-size: 16px&quot;&gt;4、new方式创建的字符会创建字符对象并引用，并在常量池也会创建相同的字符常量，若存在则不创建&lt;br style=&quot;font-size: 16px&quot;&gt;5、new方式拼接方式创建的字符串会通过&lt;font color=&quot;#ff6666&quot;&gt;StringBuilder&lt;/font&gt;创建最终结果的字符对象，并在常量池中分别创建字符对象，若存在则不创建&lt;br style=&quot;font-size: 16px&quot;&gt;6、字面创建方式比new方式创建的对象少省空间，因此多数用字面方式创建字符" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-670" y="530" width="950" height="140" as="geometry" />
+        <mxCell id="b4XtInaoXHlMPT_Rdzl1-69" value="总结：&lt;br style=&quot;font-size: 16px&quot;&gt;1、字面创建字符对象直接在常量池中创建&lt;br style=&quot;font-size: 16px&quot;&gt;2、字面拼接的方式创建字符只创建最终结果的字符对象&lt;br style=&quot;font-size: 16px&quot;&gt;3、常量池中已经有的字符直接引用，不用创建&lt;br style=&quot;font-size: 16px&quot;&gt;4、new方式创建的字符会创建字符对象并引用，并在常量池也会创建相同的字符常量，若存在则不创建&lt;br style=&quot;font-size: 16px&quot;&gt;5、new方式拼接方式创建的字符串会通过&lt;font color=&quot;#ff6666&quot;&gt;StringBuilder&lt;/font&gt;创建最终结果的字符对象，并在常量池中分别创建字符对象，若存在则不创建&lt;br style=&quot;font-size: 16px&quot;&gt;6、字面创建方式比new方式创建的对象少省空间，因此多数用字面方式创建字符&lt;br&gt;7、&lt;span style=&quot;color: rgb(255 , 51 , 51) ; font-size: 14px ; text-align: center&quot;&gt;有变量名参与的都是先在堆中new出来&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-670" y="610" width="950" height="160" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-70" value="str3" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;fontColor=#3399FF;" parent="1" vertex="1">
-          <mxGeometry x="-285" y="220" width="120" height="20" as="geometry" />
+          <mxGeometry x="-272" y="397" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-71" value="&lt;font&gt;3、String str3 = &quot;abc123&quot;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#3399FF;" parent="1" vertex="1">
-          <mxGeometry x="-665" y="220" width="170" height="20" as="geometry" />
+          <mxGeometry x="-652" y="397" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-72" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3399FF;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-71" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-460" y="229.5" as="sourcePoint" />
-            <mxPoint x="-285" y="229.5" as="targetPoint" />
+            <mxPoint x="-447" y="406.5" as="sourcePoint" />
+            <mxPoint x="-272" y="406.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4XtInaoXHlMPT_Rdzl1-73" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="b4XtInaoXHlMPT_Rdzl1-72" vertex="1" connectable="0">
@@ -284,15 +273,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pHfs5U91KYRd71H7iR9t-1" value="&lt;font color=&quot;#000000&quot;&gt;7、String str7 = str1 + &quot;123&quot;;&lt;/font&gt;&lt;br&gt;注：有变量名参与的都是new" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="440" width="200" height="40" as="geometry" />
+          <mxGeometry x="-659" y="262" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pHfs5U91KYRd71H7iR9t-2" value="str7" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-285" y="450" width="120" height="20" as="geometry" />
+          <mxGeometry x="-274" y="272" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="pHfs5U91KYRd71H7iR9t-4" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1" source="pHfs5U91KYRd71H7iR9t-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-430" y="459.5" as="sourcePoint" />
-            <mxPoint x="-285" y="459.5" as="targetPoint" />
+            <mxPoint x="-419" y="281.5" as="sourcePoint" />
+            <mxPoint x="-274" y="281.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pHfs5U91KYRd71H7iR9t-5" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="pHfs5U91KYRd71H7iR9t-4">
@@ -301,17 +290,39 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pHfs5U91KYRd71H7iR9t-6" value="&quot;abc123&quot; 对象" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=13;fontColor=#000000;align=center;size=10;" vertex="1" parent="1">
-          <mxGeometry x="190" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="70" y="265" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pHfs5U91KYRd71H7iR9t-7" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#FF3333;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="pHfs5U91KYRd71H7iR9t-2" target="pHfs5U91KYRd71H7iR9t-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-160" y="460" as="sourcePoint" />
-            <mxPoint x="185" y="458.713734939759" as="targetPoint" />
+            <mxPoint x="-149" y="282" as="sourcePoint" />
+            <mxPoint x="196" y="280.713734939759" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pHfs5U91KYRd71H7iR9t-8" value="创建对象并引用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#000000;" vertex="1" connectable="0" parent="pHfs5U91KYRd71H7iR9t-7">
           <mxGeometry x="-0.2001" y="2" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b4XtInaoXHlMPT_Rdzl1-61" value="" style="endArrow=classic;html=1;fontSize=16;exitX=0;exitY=0;exitDx=120;exitDy=25;exitPerimeter=0;entryX=0.017;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="b4XtInaoXHlMPT_Rdzl1-58" target="b4XtInaoXHlMPT_Rdzl1-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="197" as="sourcePoint" />
+            <mxPoint x="161.85185185185173" y="72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b4XtInaoXHlMPT_Rdzl1-62" value="已存在不用创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="b4XtInaoXHlMPT_Rdzl1-61" vertex="1" connectable="0">
+          <mxGeometry x="-0.1412" y="-2" relative="1" as="geometry">
+            <mxPoint x="11.93" y="-14.19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHfs5U91KYRd71H7iR9t-9" value="" style="endArrow=classic;html=1;fontSize=16;exitX=0;exitY=0;exitDx=65;exitDy=40;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pHfs5U91KYRd71H7iR9t-6" target="b4XtInaoXHlMPT_Rdzl1-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="126.44999999999999" y="304.5" as="sourcePoint" />
+            <mxPoint x="200.9954545454545" y="509.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHfs5U91KYRd71H7iR9t-10" value="已存在不用创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="pHfs5U91KYRd71H7iR9t-9">
+          <mxGeometry x="-0.1412" y="-2" relative="1" as="geometry">
+            <mxPoint x="11.93" y="-14.19" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
