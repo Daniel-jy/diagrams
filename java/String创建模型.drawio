@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-26T07:04:04.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="Aaaz-Z1ZWsJ9AU5o7eL-" version="13.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-26T09:51:04.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="cZkIzuLSwYWkxVJ14SP-" version="13.6.10" type="github">
   <diagram id="ncnsrwpVO72hItX7OUJh" name="String字符串创建">
     <mxGraphModel dx="2274" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -289,8 +289,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pHfs5U91KYRd71H7iR9t-6" value="&quot;abc123&quot; 对象" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=13;fontColor=#000000;align=center;size=10;" vertex="1" parent="1">
-          <mxGeometry x="70" y="265" width="120" height="40" as="geometry" />
+        <mxCell id="pHfs5U91KYRd71H7iR9t-6" value="&quot;abc123&quot; 对象&lt;br&gt;value:引用常量池里的地址" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=13;fontColor=#000000;align=center;size=10;" vertex="1" parent="1">
+          <mxGeometry x="70" y="252" width="120" height="65" as="geometry" />
         </mxCell>
         <mxCell id="pHfs5U91KYRd71H7iR9t-7" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#FF3333;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="pHfs5U91KYRd71H7iR9t-2" target="pHfs5U91KYRd71H7iR9t-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -314,9 +314,9 @@
             <mxPoint x="11.93" y="-14.19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pHfs5U91KYRd71H7iR9t-9" value="" style="endArrow=classic;html=1;fontSize=16;exitX=0;exitY=0;exitDx=65;exitDy=40;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pHfs5U91KYRd71H7iR9t-6" target="b4XtInaoXHlMPT_Rdzl1-18">
+        <mxCell id="pHfs5U91KYRd71H7iR9t-9" value="" style="endArrow=classic;html=1;fontSize=16;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=65;exitDy=65;exitPerimeter=0;" edge="1" parent="1" source="pHfs5U91KYRd71H7iR9t-6" target="b4XtInaoXHlMPT_Rdzl1-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="126.44999999999999" y="304.5" as="sourcePoint" />
+            <mxPoint x="130" y="310" as="sourcePoint" />
             <mxPoint x="200.9954545454545" y="509.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
